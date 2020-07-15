@@ -1,0 +1,26 @@
+
+{% extends 'miapp/plantilla.html' %}
+{% load static %}
+{% block content %}
+
+<section class="page-section about-heading">
+  <div class="container">
+    <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="{% static 'miapp/img/nosotros.jpg' %}" alt="Nosotros">
+    <div class="about-heading-content">
+      <div class="row">
+        <div class="col-xl-9 col-lg-10 mx-auto">
+          <div class="bg-faded rounded p-5">
+            <h2 class="section-heading mb-4">
+              <span class="section-heading-upper">Fundado en 2013</span>
+              <span class="section-heading-lower">Nuestra misión</span>
+            </h2>
+            <p>Impulsar la seguridad de las empresas, a través de una aplicación efectiva de técnicas y tecnologías en el reclutamiento y evaluación de personal, basadas en honestidad y confianza, para que logre los objetivos de productividad. </p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}    
